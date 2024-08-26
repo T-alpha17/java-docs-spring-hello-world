@@ -27,7 +27,7 @@ pipeline {
             }
             post {
                 success {
-                    emailext body: "Please check the console output at $BUILD_URL for more information", to: "sathishbabudevops@gmail.com", subject: '$PROJECT_NAME is completed - Build number is $BUILD_NUMBER and build kzua mwbl cmqc rogwstatus is $BUILD_STATUS'
+                    emailext body: "Please check the console outputs at $BUILD_URL for more information", to: "sathishbabudevops@gmail.com", subject: '$PROJECT_NAME is completed - Build number is $BUILD_NUMBER and build kzua mwbl cmqc rogwstatus is $BUILD_STATUS'
                 }
             }
         }
